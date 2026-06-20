@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy &mdash; Neto</title>
+<meta name="description" content="How Neto Labs Automation Ltd collects, uses and protects your personal data." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#f4f4f2;--surface:#ffffff;--ink:#141416;--ink-2:#2c2c31;--muted:#6b6b71;
+    --line:rgba(20,20,22,.10);--line-soft:rgba(20,20,22,.055);
+    --font:"Outfit",-apple-system,BlinkMacSystemFont,sans-serif;
+    --r:18px;--r-lg:28px;--pill:999px;
+    --ease:cubic-bezier(.22,.7,.2,1);
+    --maxw:880px;--pad:clamp(20px,5vw,64px);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{font-family:var(--font);background:var(--bg);color:var(--ink);font-size:17px;line-height:1.65;font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--ink);color:var(--bg)}
+  a{color:inherit}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+  .wide{max-width:1240px}
+
+  /* nav */
+  .topbar{position:sticky;top:0;z-index:40;background:rgba(244,244,242,.82);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+  .topbar.scrolled{border-color:var(--line-soft);box-shadow:0 10px 30px -24px rgba(20,20,22,.45)}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .brand{line-height:0}
+  .brand img{height:30px;width:auto;display:block;transition:opacity .25s ease}
+  @media(min-width:640px){.brand img{height:32px}}
+  .brand:hover img{opacity:.78}
+  .backlink{display:inline-flex;align-items:center;gap:.55em;font-size:.9rem;font-weight:600;color:var(--muted);transition:color .25s var(--ease)}
+  .backlink:hover{color:var(--ink)}
+  .backlink .arrow{transition:transform .25s var(--ease)}.backlink:hover .arrow{transform:translateX(-4px)}
+
+  /* doc */
+  .doc{padding-top:clamp(40px,6vw,72px);padding-bottom:clamp(64px,9vw,110px)}
+  .eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:.7em;margin-bottom:1.4em}
+  .eyebrow::before{content:"";width:9px;height:9px;border-radius:3px;background:var(--ink)}
+  h1{font-size:clamp(2.2rem,5vw,3.4rem);font-weight:300;letter-spacing:-.03em;line-height:1.04;margin-bottom:.4em}
+  .updated{font-size:.92rem;color:var(--muted);margin-bottom:2.6em}
+  h2{font-size:clamp(1.25rem,2.4vw,1.6rem);font-weight:500;letter-spacing:-.015em;margin:2em 0 .6em}
+  p{color:var(--ink-2);margin-bottom:1em}
+  ul{margin:0 0 1.2em 1.2em;color:var(--ink-2)}
+  li{margin-bottom:.5em;padding-left:.3em}
+  a.inline{color:var(--ink);font-weight:500;border-bottom:1px solid var(--line);transition:border-color .25s}
+  a.inline:hover{border-color:var(--ink)}
+  .note{background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--r);padding:1.2em 1.4em;font-size:.95rem;color:var(--muted);margin:1.4em 0}
+
+  /* footer */
+  footer{background:var(--ink);color:var(--bg)}
+  footer .wrap{display:flex;flex-direction:column;gap:2.2em;padding-top:clamp(48px,6vw,72px);padding-bottom:clamp(40px,5vw,58px)}
+  @media(min-width:760px){footer .wrap{flex-direction:row;justify-content:space-between;align-items:flex-end}}
+  footer .fbrand{line-height:0;margin-bottom:1.1em}
+  footer .fbrand img{height:26px;width:auto}
+  footer .ftag{font-size:.82rem;color:rgba(244,244,242,.55)}
+  footer .flinks{display:flex;gap:1.8em;font-size:.86rem;font-weight:500}
+  footer .flinks a{color:rgba(244,244,242,.72);transition:color .25s;padding-bottom:2px;border-bottom:1px solid transparent}
+  footer .flinks a:hover{color:var(--bg);border-color:rgba(244,244,242,.5)}
+  :focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="wrap wide">
+    <a class="brand" href="index.html" aria-label="Neto home"><img src="logo.png" alt="Neto" /></a>
+    <a class="backlink" href="index.html"><span class="arrow" aria-hidden="true">&#8592;</span> Back to site</a>
+  </div>
+</header>
+
+<main class="doc">
+  <div class="wrap">
+    <p class="eyebrow">Legal</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 20 June 2026 &middot; Neto Labs Automation Ltd</p>
+
+    <p>This policy explains how Neto Labs Automation Ltd ("Neto", "we", "us") collects, uses and protects your personal data when you contact us, book a call, or use this website. We are the data controller for the information described below.</p>
+
+    <div class="note">Neto Labs Automation Ltd is a company registered in England &amp; Wales (company number 17277577). You can contact us at <a class="inline" href="mailto:hello@netolabs.co.uk">hello@netolabs.co.uk</a>.</div>
+
+    <h2>What information we collect</h2>
+    <p>We only collect what we need to respond to you and provide our services. This may include:</p>
+    <ul>
+      <li><strong>Information you give us directly</strong> &mdash; such as your name, email address, phone number, business name and any details you share when you book a discovery call, send us an email, or discuss a project.</li>
+      <li><strong>Booking information</strong> &mdash; when you book a call through our scheduling tool, that tool collects the details you provide (such as your name, email and chosen time) so we can hold the meeting.</li>
+      <li><strong>Basic website information</strong> &mdash; limited technical data your browser sends automatically, such as approximate location and device type, used only to keep the site working and secure.</li>
+    </ul>
+
+    <h2>How we use your information</h2>
+    <p>We use your information to:</p>
+    <ul>
+      <li>Respond to your enquiry and arrange or hold calls.</li>
+      <li>Provide, scope and deliver the services you ask us about.</li>
+      <li>Send you information directly relevant to work we are doing or discussing with you.</li>
+      <li>Meet our legal, accounting and tax obligations.</li>
+    </ul>
+    <p>We rely on the following legal bases: <strong>your consent</strong> (for example, when you choose to contact us), <strong>the performance of a contract</strong> (to deliver work you engage us for), and our <strong>legitimate interests</strong> in running and improving our business &mdash; balanced against your rights.</p>
+
+    <h2>We do not sell your data</h2>
+    <p>We do not sell, rent or trade your personal data. We do not take commissions from software vendors, and we do not share your information for advertising.</p>
+
+    <h2>Who we share it with</h2>
+    <p>We share data only with trusted service providers who help us operate, and only as far as needed. These currently include:</p>
+    <ul>
+      <li>Our scheduling provider (for booking calls).</li>
+      <li>Our email and productivity provider (for communicating with you and storing correspondence).</li>
+      <li>Our accountant and, where required, HMRC and Companies House (for tax and legal obligations).</li>
+    </ul>
+    <p>These providers process data on our behalf under their own data protection terms. We may also disclose information if required by law.</p>
+
+    <h2>How long we keep it</h2>
+    <p>We keep your information only as long as needed for the purpose it was collected, or as required by law (for example, financial records are kept for the period required by HMRC). When it is no longer needed, we delete or anonymise it.</p>
+
+    <h2>Cookies</h2>
+    <p>This website itself uses minimal cookies. Some embedded tools, such as our booking scheduler, may set their own cookies when you use them &mdash; these are governed by that provider's own policy. You can control or block cookies through your browser settings.</p>
+
+    <h2>Your rights</h2>
+    <p>Under UK data protection law you have the right to:</p>
+    <ul>
+      <li>Ask for a copy of the personal data we hold about you.</li>
+      <li>Ask us to correct information that is wrong or incomplete.</li>
+      <li>Ask us to delete your data, where there is no overriding legal reason to keep it.</li>
+      <li>Object to or restrict how we use your data.</li>
+      <li>Withdraw consent at any time, where we relied on consent.</li>
+    </ul>
+    <p>To exercise any of these, email us at <a class="inline" href="mailto:hello@netolabs.co.uk">hello@netolabs.co.uk</a> and we will respond within the time required by law.</p>
+
+    <h2>Complaints</h2>
+    <p>If you have a concern about how we handle your data, please contact us first so we can put it right. You also have the right to complain to the Information Commissioner's Office (ICO), the UK's data protection regulator, at <a class="inline" href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. The "last updated" date at the top shows when it was last changed.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy or your data? Email <a class="inline" href="mailto:hello@netolabs.co.uk">hello@netolabs.co.uk</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap wide">
+    <div>
+      <div class="fbrand"><a href="index.html" aria-label="Neto home"><img src="logo-light.png" alt="Neto" /></a></div>
+      <span class="ftag">Neto Labs Automation Ltd &middot; Registered in England &amp; Wales &middot; Company No. 17277577 &middot; &copy; 2026</span>
+    </div>
+    <nav class="flinks" aria-label="Footer">
+      <a href="index.html#work">Case studies</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  var bar=document.getElementById('topbar');
+  function onScroll(){bar.classList.toggle('scrolled',window.scrollY>10);}
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+</script>
+</body>
+</html>
